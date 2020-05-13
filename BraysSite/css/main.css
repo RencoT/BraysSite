@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.fas{
+    color: #f5f8ff;
+}
+nav{
+    background-color: #2AB6A6;
+    top: 0px;
+}
+.navbar-dark .navbar-toggler{
+    border-color: rgba(245, 248, 255,.2)!important;
+}
+ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: right;
+}
+li a:hover{
+    color: #f5f8ff!important;
+}
+li a{
+    color: #f5f8ff!important;
+}
+nav img{
+    width: 40%;
+}
+main{
+    text-align: center;
+    display: block;
+}
+h1{
+    color: #2ab6a6;
+}
+h2{
+    color: #2ab6a6;
+}
+p{
+    font-size: 1.125rem;
+}
+.appicon{
+    width: 25%;
+    padding: 10px;
+    justify-content: space-between;
+}
+.storebtnsS{
+    display: flex;
+    justify-content: space-around;
+}
+.storebtnsL{
+    display: none;
+}
+.contactform{
+    text-align: left;
+}
+.contactform .btn{
+    background-color: #2ab6a6;
+    color: #f5f8ff;
+}
+.card-group{
+    display: none;
+}
+.specs{
+    display: none;
+}
+@media screen and (min-width: 768px){
+    nav img{
+        width: 25%;
+    }
+    li a{
+        font-weight: bold;
+    }
+    .carousel{
+        display: none;
+    }
+    .specs .fas, .fab{
+        color: #2ab6a6;
+    }
+    .specs{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .spec{
+        width: 25%;
+    }
+    .spec p{
+        font-size: 1.25rem;
+    }
+    .storebtnsS{
+        display: none;
+    }
+    .storebtnsL{
+        display: flex;
+        justify-content: space-around;
+    }
+    .appicon{
+        width: 30%;
+    }
+}

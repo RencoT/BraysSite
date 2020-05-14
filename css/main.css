@@ -7,6 +7,9 @@
 .fas{
     color: #f5f8ff;
 }
+.intro{
+    color: #212529;
+}
 nav{
     background-color: #2AB6A6;
     top: 0px;
@@ -20,10 +23,13 @@ ul{
     text-align: right;
 }
 li a:hover{
-    color: #f5f8ff!important;
+    color: #006F61 !important;
 }
 li a{
     color: #f5f8ff!important;
+}
+a:focus{
+    color: #009283!important;
 }
 nav img{
     width: 40%;
@@ -32,10 +38,7 @@ main{
     text-align: center;
     display: block;
 }
-h1{
-    color: #2ab6a6;
-}
-h2{
+h1, h2, h3{
     color: #2ab6a6;
 }
 p{
@@ -59,17 +62,25 @@ p{
 .contactform .btn{
     background-color: #2ab6a6;
     color: #f5f8ff;
-}
-.card-group{
+}/*
+.carousel-item .card{
+    background-color: #f5f8ff;
+}*/
+.card-deck{
     display: none;
 }
 .specs{
     display: none;
-}
+}/*
 .jumbotron{
     background-color: #f5f8ff!important;
-}
+}*/
 @media screen and (min-width: 768px){
+    .collapsing{
+        -webkit-transition: none !important;
+        transition: none !important;
+        display: none !important;
+    }
     nav img{
         width: 25%;
     }
@@ -79,37 +90,39 @@ p{
     .carousel{
         display: none;
     }
+    .bracelets .card{
+        background-color: white;
+    }
     .specs .fas, .fab{
         color: #2ab6a6;
     }
-    .specs{
-        display: flex;
-        text-align: center;
-        justify-content: space-between;
+    .specs i{
+        margin: 10px auto;
     }
-    .spec{
-        width: 25%;
-        margin: 0.5%;
-        align-items: center;
-    }
-    .specs .card{
-        background-color: #f5f8ff!important;
-        border: none;
-    }
-    .spec p{
+    .specs .card-text{
+        margin-bottom: 10px;
         font-size: 1.25rem;
+    }
+    .specs .card-body{
+        padding: 10px 5px;
     }
     .storebtnsS{
         display: none;
     }
     .storebtnsL{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .appicon{
         width: 30%;
     }
 }
 @media screen and (min-width: 1024px){
+    li a{
+        font-size: 1.5rem;
+    }
+    p, label{
+        font-size: 1.25rem!important;
+    }
     
 }

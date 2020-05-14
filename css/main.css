@@ -66,6 +66,9 @@ p{
 .specs{
     display: none;
 }
+.jumbotron{
+    background-color: #f5f8ff!important;
+}
 @media screen and (min-width: 768px){
     nav img{
         width: 25%;
@@ -86,6 +89,12 @@ p{
     }
     .spec{
         width: 25%;
+        margin: 0.5%;
+        align-items: center;
+    }
+    .specs .card{
+        background-color: #f5f8ff!important;
+        border: none;
     }
     .spec p{
         font-size: 1.25rem;
@@ -100,4 +109,7 @@ p{
     .appicon{
         width: 30%;
     }
+}
+@media screen and (min-width: 1024px){
+    
 }

@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
+    color: #212529;
 }
 .fas{
     color: #f5f8ff;
@@ -30,6 +31,7 @@ li a{
 }
 a:focus{
     color: #009283!important;
+    /*#8ad9d7*/
 }
 nav img{
     width: 40%;
@@ -123,6 +125,22 @@ p{
     }
     p, label{
         font-size: 1.25rem!important;
+    }/*
+    .missieimg{
+        background-image: url(/img/sebastian-herrmann-IfLWkrhFrqc-unsplash-min.jpg);
+        background-image: url(/img/rikki-chan-_k31aFqnmTM-unsplash-min.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #2ab6a6;
+        background-blend-mode: darken;
     }
-    
+    .missieimg p{
+        width: 55%;
+        color: #f5f8ff;
+        text-align: left;
+    }
+    .intro{
+        text-align: left;
+        color: #f5f8ff;
+    }*/
 }

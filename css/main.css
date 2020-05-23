@@ -36,6 +36,9 @@ a:focus{
 nav img{
     width: 40%;
 }
+a .fas{
+    color: #2ab6a6 !important;
+}
 main{
     text-align: center;
     display: block;
@@ -77,6 +80,12 @@ p{
 .jumbotron{
     background-color: #f5f8ff!important;
 }*/
+.faq{
+    text-align: left;
+}
+.question{
+    color: #2ab6a6;
+}
 @media screen and (min-width: 768px){
     .collapsing{
         -webkit-transition: none !important;
@@ -126,10 +135,11 @@ p{
     p, label{
         font-size: 1.25rem!important;
     }
+    /*
     nav img{
 
     }
-    /*
+    
     .missieimg{
         background-image: url(/img/sebastian-herrmann-IfLWkrhFrqc-unsplash-min.jpg);
         background-image: url(/img/rikki-chan-_k31aFqnmTM-unsplash-min.jpg);

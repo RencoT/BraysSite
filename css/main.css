@@ -42,6 +42,7 @@ a .fas{
 main{
     text-align: center;
     display: block;
+    margin-bottom: 10px;
 }
 h1, h2, h3{
     color: #2ab6a6;
@@ -50,7 +51,7 @@ p{
     font-size: 1.125rem;
 }
 .appicon{
-    width: 25%;
+    width: 35%;
     padding: 10px;
     justify-content: space-between;
 }
@@ -76,16 +77,49 @@ p{
 }
 .specs{
     display: none;
-}/*
-.jumbotron{
+}
+.app{
     background-color: #f5f8ff!important;
-}*/
-.faq{
-    text-align: left;
 }
 .question{
     color: #2ab6a6;
+    text-align: left;
 }
+.answer{
+    text-align: left;
+}
+.collapsible {
+    display: flex;
+    background-color: #f5f8ff;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 0.5px solid #ced4da;
+    border-radius: .3rem;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+  }
+  .collapsible h5{
+      margin-bottom: 0;
+  }
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 40ch;
+  }
+  .collapsible:after {
+    content: '+';
+    font-size: 20px;
+    color: #2ab6a6;
+  }
+  .collapsible.active:after {
+    content: "-";
+    font-size: 24px;
+  }
 @media screen and (min-width: 768px){
     .collapsing{
         -webkit-transition: none !important;
@@ -125,7 +159,10 @@ p{
         justify-content: space-evenly;
     }
     .appicon{
-        width: 30%;
+        width: 25%;
+    }
+    .content{
+        width: 100%;
     }
 }
 @media screen and (min-width: 1024px){
@@ -157,6 +194,9 @@ p{
         text-align: left;
         color: #f5f8ff;
     }*/
+  .content{
+      width: 100%;
+  }
 }
 @media screen and (min-width: 1280px){
     

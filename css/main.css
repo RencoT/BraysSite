@@ -130,6 +130,9 @@ p{
   footer {
     text-align: center;
   }
+  footer a{
+      color: #2ab6a6;
+  }
   #myVideo {
     display: none;
   }

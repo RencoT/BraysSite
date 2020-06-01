@@ -42,3 +42,40 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 });
+
+
+
+window.onload=function(){
+    var actionBtn = document.getElementById("action-btn");
+    actionBtn.addEventListener("click", pausePlay);
+    var actionBtn2 = document.getElementById("action-btn2");
+    actionBtn2.addEventListener("click", muteUnmute);
+    var video = document.getElementById('myVideo');
+    video.play()
+} 
+
+
+function pausePlay() {
+  var actionBtn = document.getElementById("action-btn");
+  var video = document.getElementById("myVideo");
+  if (video.paused) {
+    video.play();
+    actionBtn.src = "img/pause.png";
+  } else {
+    video.pause();
+    actionBtn.src = "img/play.png";
+  }
+}
+
+function muteUnmute() {
+  var actionBtn2 = document.getElementById("action-btn2");
+  var video = document.getElementById("myVideo");
+
+  if (video.muted == true) {
+    video.muted = false;
+    actionBtn2.src = "img/unmute.png";
+  } else {
+    video.muted = true;
+    actionBtn2.src = "img/mute.png";
+  }
+}

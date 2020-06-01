@@ -16,11 +16,11 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="/scripts/script.js"></script>
+    <script src="scripts/script.js"></script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -29,31 +29,45 @@
 <body>
     <nav id="navscroll" class="navbar navbar-expand-md navbar-dark sticky-top">
         <img src="img/Brays_Wh2.png" alt="Brays logo">
-        <!-- <p class="slogan m-2">Around for safety.</p> -->
+        <p class="slogan m-2">Around for safety.</p>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <!--<span class="navbar-toggler-icon"></span>-->
           <i class="fas fa-bars fa-lg p-1"></i>
         </button>
         <div class="navbar-collapse collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#anchor1">Onze missie</a></li>
+            <li class="nav-item"><a class="nav-link" href="#anchor1">BRAYS</a></li>
             <li class="nav-item"><a class="nav-link" href="#anchor2">Bracelets</a></li>
-            <li class="nav-item"><a class="nav-link" href="#anchor3">App</a></li>
-            <li class="nav-item"><a class="nav-link" href="#anchor4">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="#anchor5">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#anchor3">App</a></li>          
+            <li class="nav-item"><a class="nav-link" href="#anchor4">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#anchor5">Contact</a></li>
           </ul>
         </div>
       </nav>
+    <!-- <section class="video-content">
+      <video auotoplay muted loop id="myVideo">
+        <source src="img/promovideo.mp4" type="video/mp4">
+      </video>
+
+      <div id="action-btns">
+        <img id="action-btn" class="action-btn"src="img/pause.png" alt="">
+        <img id="action-btn2" class="action-btn"src="img/mute.png" alt="">     
+      </div>
+    </section> -->
     <main class="container">
-        <h1 id="anchor1" class="p-4">Onze missie</h1>
+        <h1 id="anchor1" class="p-4">BRAYS</h1>
         <div class="missieimg">
-          <p class="p-3">We gaan allemaal elke dag onophoudelijk van punt A naar punt B, vaak kennen we de route die we moeten nemen uit ons hoofd. We manoeuvreren ons moeiteloos heen en terug. 
-            Maar wat als de bestemming onbekend is? Of de weg naar een bekende bestemming plots veranderd? Wat doe je dan?
-        </p>
-        <p class="p-3">We nemen onze smartphone, openen onze favoriete navigatie app, zoeken waar we moeten zijn en vertrekken ermee in de hand!
-            Maar hoe veilig is dit als fietser of voetganger? Je staart elke paar seconden naar je scherm en bent afgeleid van wat er gaande is in het verkeer. Dit is uiterst gevaarlijk en dus besloten we het onze missie te maken dit gevaar te elimineren. 
-        </p>
-        <h3 class="intro">Introducing: Brays!</h3>
+          <div class="txt">
+            <p class="p-3">We gaan allemaal elke dag onophoudelijk van punt A naar punt B, vaak kennen we de route die we moeten nemen uit ons hoofd. We manoeuvreren ons moeiteloos heen en terug. 
+              Maar wat als de bestemming onbekend is? Of de weg naar een bekende bestemming plots veranderd? Wat doe je dan?
+            </p>
+            <p class="p-3">We nemen onze smartphone, openen onze favoriete navigatie app, zoeken waar we moeten zijn en vertrekken ermee in de hand!
+              Maar hoe veilig is dit als fietser of voetganger? Je staart elke paar seconden naar je scherm en bent afgeleid van wat er gaande is in het verkeer. Dit is uiterst gevaarlijk en dus besloten we het onze missie te maken dit gevaar te elimineren. 
+            </p>
+          </div>
+          <div class="vid">
+            <h3 class="intro">Introducing Brays</h3>
+            <iframe class="mt-3" width="560" height="315" src="https://www.youtube.com/embed/yDVSHsJpZuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
         <h2 id="anchor2" class="p-4">Bracelets</h2>
         <p class="p-3">Wie BRAYS bracelets draagt kan met een veilig gevoel over onbekende routes naar eender welke bestemming navigeren.</p>
@@ -64,7 +78,7 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                        <img src="/img/BraysBlackTransparent.png" class="img-fluid p-4" alt="Brays bracelet black">
+                        <img src="img/BraysBlackTransparent.png" class="img-fluid p-4" alt="Brays bracelet black">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -80,7 +94,7 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                        <img src="/img/BraysWhiteTransparent.png" class="img-fluid p-4" alt="Brays bracelet white">
+                        <img src="img/BraysWhiteTransparent.png" class="img-fluid p-4" alt="Brays bracelet white">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -96,7 +110,7 @@
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                        <img src="/img/BraysCyanTransparent.png" class="img-fluid p-4" alt="Brays bracelet cyan">
+                        <img src="img/BraysCyanTransparent.png" class="img-fluid p-4" alt="Brays bracelet cyan">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
@@ -120,21 +134,21 @@
         </div>
         <div class="card-deck bracelets">
             <div class="card">
-                <img src="/img/BraysBlackTransparent.png" class="card-img-top p-3" alt="Brays bracelet black">
+                <img src="img/BraysBlackTransparent.png" class="card-img-top p-3" alt="Brays bracelet black">
                 <div class="card-body">
                     <h4 class="card-title">BRAYS zwart</h4>
                     <div class="card-text">Basic zwarte BRAYS bracelet.</div>
                 </div>
             </div>
             <div class="card">
-                <img src="/img/BraysWhiteTransparent.png" class="card-img-top p-3" alt="Brays bracelet white">
+                <img src="img/BraysWhiteTransparent.png" class="card-img-top p-3" alt="Brays bracelet white">
                 <div class="card-body">
                     <h4 class="card-title">BRAYS wit</h4>
                     <div class="card-text">Basic witte BRAYS bracelet.</div>
                 </div>
             </div>
             <div class="card">
-                <img src="/img/BraysCyanTransparent.png" class="card-img-top p-3" alt="Brays bracelet cyan">
+                <img src="img/BraysCyanTransparent.png" class="card-img-top p-3" alt="Brays bracelet cyan">
                 <div class="card-body">
                     <h4 class="card-title">BRAYS cyaan</h4>
                     <div class="card-text">Basic cyaan BRAYS bracelet.</div>
@@ -143,26 +157,26 @@
         </div>
         <div class="card-deck mt-5 specs">
           <div class="card">
-            <i class="fas fa-battery-full fa-4x card-img-top"></i>
+            <i class="fas fa-battery-full fa-3x card-img-top"></i>
             <div class="card-body">
               <p class="card-text">Uitstekende batterijduur</p>
             </div>
             
           </div>
           <div class="card">
-            <i class="fab fa-bluetooth fa-4x card-img-top"></i>
+            <i class="fab fa-bluetooth fa-3x card-img-top"></i>
             <div class="card-body">
               <p class="card-text">Connecteer met Bluetooth</p>
             </div>
             
           </div>
           <div class="card">
-            <i class="fas fa-gem fa-4x card-img-top"></i>
+            <i class="fas fa-gem fa-3x card-img-top"></i>
             <div class="card-body">
               <p class="card-text">Uiterst robuuste bouw</p></div>
           </div>
           <div class="card">
-            <i class="fas fa-feather-alt fa-4x card-img-top"></i>
+            <i class="fas fa-feather-alt fa-3x card-img-top"></i>
             <div class="card-body">
               <p class="card-text">Casual look & feel</p></div>
           </div>
@@ -171,36 +185,19 @@
         <div class="app p-4">
             <h3>Download onze app vandaag!</h3>
             <hr class="my-4">
-            <img class="appicon" src="/img/AppIcon.png" alt="Brays app icon">
+            <img class="appicon" src="img/AppIcon.png" alt="Brays app icon">
+            <img class="appicon" src="img/phonehand.png" alt="Brays app icon">
             <div class="storebtnsS">
-                <a class="plstore" href="https://play.google.com/store?hl=en" role="button"><img src="/img/Play_128x128.png" alt="Google Play Store button"></a>
-                <a class="apstore" href="https://www.apple.com/ios/app-store/" role="button"><img src="/img/Apple_128x128.png" alt="Apple App Store button"></a>
+                <a class="plstore" href="https://play.google.com/store?hl=en" role="button"><img src="img/Play_128x128.png" alt="Google Play Store button"></a>
+                <a class="apstore" href="https://www.apple.com/ios/app-store/" role="button"><img src="img/Apple_128x128.png" alt="Apple App Store button"></a>
             </div>
             <div class="storebtnsL mt-4 mb-3">
-                <a class="plstore" href="https://play.google.com/store?hl=en" role="button"><img src="/img/Play_256x82.png" alt="Google Play Store button"></a>
-                <a class="apstore" href="https://www.apple.com/ios/app-store/" role="button"><img src="/img/Apple_256x82.png" alt="Apple App Store button"></a>
+                <a class="plstore" href="https://play.google.com/store?hl=en" role="button"><img src="img/Play_256x82.png" alt="Google Play Store button"></a>
+                <a class="apstore" href="https://www.apple.com/ios/app-store/" role="button"><img src="img/Apple_256x82.png" alt="Apple App Store button"></a>
             </div>
         </div>
         
-        <h2 id="anchor4" class="p-4">Contact</h2>
-        <form class="contactform mb-3" action="">
-            <div class="form-group">
-                <label for="exampleInputEmail1">Uw naam</label>
-                <input type="name" class="form-control" id="exampleInputName" aria-describedby="namehelp" placeholder="">
-                
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Uw e-mail</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-                <small id="emailHelp" class="form-text text-muted">We zullen nooit uw e-mail delen met derden.</small>
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Uw bericht</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn">Submit</button>
-        </form>
-        <h2 id="anchor5" class="p-3">FAQ</h2>
+        <h2 id="anchor4" class="p-3">FAQ</h2>
         <button class="collapsible"><h5 class="question">Hoe werken de Brays bracelets?</h5></button>
         <div class="content mb-2">
           <p class="answer p-2 ml-2">
@@ -234,11 +231,51 @@
             <br>
           </p>
         </div>
+        <button class="collapsible"><h5 class="question p-2">Hoeveel is de vraagprijs voor een bandje?</h5></button>
+        <div class="content mb-2 ml-2">
+          <p class="answer p-2">
+            De prijs voor een bandje zal zich bevinden op €39.95.
+          </p>
+        </div>
+        <button class="collapsible"><h5 class="question p-2">Moet ik batterijen aanschaffen voor het bandje?</h5></button>
+        <div class="content mb-2 ml-2">
+          <p class="answer p-2">
+            In de doos zal zich één opgeladen batterijtje bevinden voor in het bandje.
+          </p>
+        </div>
         <div class="stars">
           <small><small>* Hier is een actieve internetverbinding voor nodig</small></small>
           <br>
           <small><small>** Batterijduur hangt af van gebruik & andere factoren</small></small>
         </div>
+
+        <h2 id="anchor5" class="p-4">Contact</h2>
+        <form class="contactform mb-3" action="">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Uw naam</label>
+                <input type="name" class="form-control" id="exampleInputName" aria-describedby="namehelp" placeholder="">
+                
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Uw e-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                <small id="emailHelp" class="form-text text-muted">We zullen nooit uw e-mail delen met derden.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Uw bericht</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn">Verzenden</button>
+        </form>
     </main>
+
+    <footer>
+      <span>© Brays</span>
+      <div id="social-icons">
+        <a href="https://www.facebook.com/Brays-109810070750355"><i class="fab fa-facebook-f fa-2x m-3"></i></a>
+        <a href="https://twitter.com/Brays_Startup"><i class="fab fa-twitter fa-2x m-3"></i></a>
+        <a href=""><i class="fab fa-instagram fa-2x m-3"></i></a>
+      </div>
+    </footer>
 </body>
 </html>

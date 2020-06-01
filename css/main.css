@@ -43,6 +43,7 @@ main{
     text-align: center;
     display: block;
     margin-bottom: 10px;
+    overflow-x: hidden;
 }
 h1, h2, h3{
     color: #2ab6a6;
@@ -74,6 +75,9 @@ p{
 }*/
 .card-deck{
     display: none;
+}
+.card {
+    border: 1px solid #2ab6a6;
 }
 .specs{
     display: none;
@@ -120,6 +124,24 @@ p{
     content: "-";
     font-size: 24px;
   }
+  .slogan {
+    font-size: 0.8rem;
+  }
+  footer {
+    text-align: center;
+  }
+  #myVideo {
+    display: none;
+  }
+  .app {
+    background-color: white !important;
+  }
+  .video-content {
+    display: none;
+  }
+  iframe{
+      display: none;
+  }
 @media screen and (min-width: 768px){
     .collapsing{
         -webkit-transition: none !important;
@@ -144,6 +166,7 @@ p{
     .specs i{
         margin: 10px auto;
     }
+    
     .specs .card-text{
         margin-bottom: 10px;
         font-size: 1.25rem;
@@ -158,48 +181,70 @@ p{
         display: flex;
         justify-content: space-evenly;
     }
+    .storebtnsL img{
+        width: 70%;
+    }
     .appicon{
         width: 25%;
     }
     .content{
         width: 100%;
     }
+    .slogan {
+        font-size: 1rem;
+    }
+    iframe{
+        display: block;
+        margin: 0 auto;
+    }
+    .video-content {
+        display: initial;
+    }
 }
 @media screen and (min-width: 1024px){
     li a{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        margin: 0 20px 0 20px;
     }
     p, label{
         font-size: 1.25rem!important;
     }
-    /*
-    nav img{
-
-    }
-    
-    .missieimg{
-        background-image: url(/img/sebastian-herrmann-IfLWkrhFrqc-unsplash-min.jpg);
-        background-image: url(/img/rikki-chan-_k31aFqnmTM-unsplash-min.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: #2ab6a6;
-        background-blend-mode: darken;
-    }
-    .missieimg p{
-        width: 55%;
-        color: #f5f8ff;
-        text-align: left;
-    }
-    .intro{
-        text-align: left;
-        color: #f5f8ff;
-    }*/
   .content{
       width: 100%;
   }
+  #myVideo {
+        display: initial;
+        width: 100%;
+    }
+  .video-content {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: 100vh;
+    text-align: center;
+  }
+  #action-btns {
+    position: absolute;
+    transform: translateY(-1000px);
+    margin-left: 25px;
+  }
+  .action-btn {
+    cursor: pointer;
+    width: 50px;
+    margin: 0 20px 0 20px;
+  }
 }
 @media screen and (min-width: 1280px){
-    
+    .missieimg{
+        display: flex;
+        align-items: center;
+    }
+    .missieimg .txt{
+        text-align: left;
+        width: 60%;
+    }
+    .intro{
+        text-align: center;
+    }
 }
 @media screen and (min-width: 1440px){
     nav img{
